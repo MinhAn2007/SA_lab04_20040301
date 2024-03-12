@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) throws Exception{
         JDepend depend =new JDepend(new PrintWriter("report2.xml"));
         //JDepend depend =new JDepend();
-        depend.addDirectory("T:\\exercise\\SA_lab04_20040301");
+        depend.addDirectory("C:\\An\\SA_lab04_20040301");
         depend.analyze();
         System.out.println("DONE");
         System.out.println("x");
