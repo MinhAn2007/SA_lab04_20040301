@@ -385,11 +385,11 @@
                 <TotalClasses>19</TotalClasses>
                 <ConcreteClasses>18</ConcreteClasses>
                 <AbstractClasses>1</AbstractClasses>
-                <Ca>0</Ca>
+                <Ca>1</Ca>
                 <Ce>12</Ce>
                 <A>0.05</A>
-                <I>1</I>
-                <D>0.05</D>
+                <I>0.92</I>
+                <D>0.02</D>
                 <V>1</V>
             </Stats>
 
@@ -472,6 +472,7 @@
             </DependsUpon>
 
             <UsedBy>
+                <Package>org.example</Package>
             </UsedBy>
         </Package>
 
@@ -754,11 +755,11 @@
 
         <Package name="org.example">
             <Stats>
-                <TotalClasses>1</TotalClasses>
-                <ConcreteClasses>1</ConcreteClasses>
+                <TotalClasses>2</TotalClasses>
+                <ConcreteClasses>2</ConcreteClasses>
                 <AbstractClasses>0</AbstractClasses>
                 <Ca>0</Ca>
-                <Ce>3</Ce>
+                <Ce>6</Ce>
                 <A>0</A>
                 <I>1</I>
                 <D>0</D>
@@ -772,11 +773,17 @@
                 <Class sourceFile="Main.java">
                     org.example.Main
                 </Class>
+                <Class sourceFile="Swing_UI.java">
+                    org.example.Swing_UI
+                </Class>
             </ConcreteClasses>
 
             <DependsUpon>
                 <Package>java.io</Package>
                 <Package>java.lang</Package>
+                <Package>java.lang.invoke</Package>
+                <Package>java.util.concurrent</Package>
+                <Package>jdepend.swingui</Package>
                 <Package>jdepend.xmlui</Package>
             </DependsUpon>
 
